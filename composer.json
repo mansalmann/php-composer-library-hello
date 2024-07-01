@@ -1,0 +1,19 @@
+ {
+    "name": "kingsalman/library-hello",
+    "description": "Belajar membuat library",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Salman",
+            "email": "work.salmann@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Salman\\Belajar\\": "src/"
+        }
+    },
+    "require": {
+        "php":">=8.0"
+    }
+}
